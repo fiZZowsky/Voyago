@@ -1,0 +1,15 @@
+{
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "newText": "New Text {name_of_placeholder}",
+  "@newText": {
+    "placeholders": {
+        "name_of_placeholder" : {
+            "type": "double",
+            "format": "decimalPattern"
+        }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "helloWorld": "Witaj świecie!",
+  "@helloWorld": {
+    "description": "powitanie po polsku"
+  },
+  "newText": "Nowy Text {name_of_placeholder}",
+  "@newText": {
+    "placeholders": {
+        "name_of_placeholder" : {
+            "type": "double",
+            "format": "decimalPattern"
+        }
+    }
+  }
+}

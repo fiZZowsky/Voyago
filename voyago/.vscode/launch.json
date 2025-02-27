@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Android",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "iPhone",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "iphone"
+        },
+        {
+            "name": "MacOS",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "macos"
+        },
+        {
+            "name": "voyago",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "voyago (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "voyago (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": ["Android", "iPhone", "MacOS"]
+        }
+    ]
+}
